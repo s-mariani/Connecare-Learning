@@ -18,9 +18,9 @@ public class DBManager {
 
     private static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-    private static final String URL = "jdbc:mysql://localhost:3306/osteolab?useSSL=false";
+    private static final String URL = "jdbc:mysql://localhost:3306/osteolab?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "r00t";
 
 
     public DBManager(){

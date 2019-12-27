@@ -20,8 +20,9 @@ import java.io.*;
  */
 public class FileManager {
 
-    private static final String MODELS_DIR = "C:" + File.separator + "Users" + File.separator + "Andrea" + File.separator +
-            "Desktop" + File.separator + "Connecare"+ File.separator + "Models";
+//    private static final String MODELS_DIR = "C:" + File.separator + "Users" + File.separator + "Andrea" + File.separator +
+//            "Desktop" + File.separator + "Connecare"+ File.separator + "Models";
+    private static final String MODELS_DIR = "/filedb/models/";
 
     public static void saveNewModel(String modelID, AttributeDataset dataset, PartitionClustering<double[]> clustering,
                                     LogisticRegression[] logisticRegressions) throws CreatingFileException, IOException {
